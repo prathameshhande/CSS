@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        *{
+            /* margin: 0;
+            padding: 0; */
+        }
+        li{
+            /* display: inline; */
+            color: aliceblue;
+            list-style: circle;
+            list-style: url();
+        
+        }
+        header{
+            background-color: black;
+            height: 70px;
+
+        }
+        p{
+            text-align: center;
+        }
+        .contenrt{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            background-color: greenyellow;
+            border: 2px solid red;
+            position: relative;
+            position: absolute;
+            position: fixed;
+            position: sticky;
+            z-index: 10;
+            top: 20px;
+            left: 20px;
+        }
+        .box2{                                    
+            width: 50px;
+            height: 50px;
+            background-color: greenyellow;
+            border: 2px solid red;
+            
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>login</li>
+        </ul>
+    </nav>
+</header>
+<div class="contenrt">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio placeat voluptas sed at dignissimos ipsa eveniet et quibusdam, corrupti nisi aut, alias id fuga dolorum nesciunt vel laboriosam temporibus? Dolorum?</p>
+<div class="box">i am a box</div>
+<div class="box2">i am a box2</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: red;
+            height: 400px;
+        }
+        .box{
+             border: 2px solid black ;
+             width: 600px;
+          
+        }
+        .box:hover{
+            width: 50px;
+        }
+        .box{
+            /* transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 1s; */
+            transition: width 1s ease-in-out 2s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam, fugit commodi numquam laudantium voluptatum minus perspiciatis nesciunt cupiditate nisi est animi ipsum blanditiis ea soluta sed inventore officia? Delectus, porro blanditiis?</div>
+        
+    </div>
+</body>
+</html>
